@@ -1,0 +1,149 @@
+/* Stylesheet for items. */
+
+/* Other */
+
+.edit{
+	padding-left: 5px;
+}
+
+.del{
+	padding-left: 5px;
+}
+
+.download{
+	padding-left: 5px;
+}
+
+/* Items */
+
+.items{
+	float: left;
+	display: block;
+}
+
+.pitem{
+	background-image: url("img/error.png");
+	background-repeat: no-repeat;
+	height: 16px;
+	float: left;
+	white-space: nowrap;
+}
+
+.pdir{
+	background-image: url("img/folder.png");
+	background-repeat: no-repeat;
+	height: 16px;
+	float: left;
+}
+
+.pmp3, .pwav, .pwma, .pogg, .pmid{
+	background-image: url("img/music.png");
+	background-repeat: no-repeat;
+	height: 16px;
+	float: left;
+}
+
+.pexe{
+	background-image: url("img/exe.png");
+	background-repeat: no-repeat;
+	height: 16px;
+	float: left;
+}
+
+.pjs, .pjson, .pjsp, .jspx, .pjvs, .pjws{
+	background-image: url("img/js.png");
+	background-repeat: no-repeat;
+	height: 16px;
+	float: left;
+}
+
+.piso, .pimg, .pmdf, .pvcd, .pbin{
+	background-image: url("img/cd.png");
+	background-repeat: no-repeat;
+	height: 16px;
+	float: left;
+}
+
+.pcss, .pini, .pdat{
+	background-image: url("img/css.png");
+	background-repeat: no-repeat;
+	height: 16px;
+	float: left;
+}
+
+.rss{
+	background-image: url("img/rss.png");
+	background-repeat: no-repeat;
+	height: 16px;
+	float: left;
+}
+
+.pbat, .pbak{
+	background-image: url("img/cmd.png");
+	background-repeat: no-repeat;
+	height: 16px;
+	float: left;
+}
+
+.pgif, .ppng, .pjpg, .ppng, .pico, .pcur, .pbmp, .ppsd{
+	background-image: url("img/image.png");
+	background-repeat: no-repeat;
+	height: 16px;
+	float: left;
+}
+
+.pdll, .psys, .pbin, .pcfg, .pcab{
+	background-image: url("img/dll.png");
+	background-repeat: no-repeat;
+	height: 16px;
+	float: left;
+}
+
+.pfnt, .pttf, .pfon, .potf, .pwoff{
+	background-image: url("img/font.png");
+	background-repeat: no-repeat;
+	height: 16px;
+	float: left;
+}
+
+.pxml{
+	background-image: url("img/xml.png");
+	background-repeat: no-repeat;
+	height: 16px;
+	float: left;
+}
+
+.phtml, .phtm, .pphtml, .phtmls, .pasp, .paspx, .pdhtml, .pxhtml{
+	background-image: url("img/file.png");
+	background-repeat: no-repeat;
+	height: 16px;
+	float: left;
+}
+
+.pphp{
+	background-image: url("img/file.png");
+	background-repeat: no-repeat;
+	height: 16px;
+	float: left;
+}
+
+.pzip, .ptar, .ptar.gz, .p7z, .p7zip, .prar{
+	background-image: url("img/zip.png");
+	background-repeat: no-repeat;
+	height: 16px;
+	float: left;
+}
+
+.ptxt, .plog, .pdoc, .prtf{
+	background-image: url("img/txt.png");
+	background-repeat: no-repeat;
+	height: 16px;
+	float: left;
+}
+
+.pavi, .pflv, .pmov, .pmpg, .pwmv{
+	background-image: url("img/video.png");
+	background-repeat: no-repeat;
+	height: 16px;
+	float: left;
+}
