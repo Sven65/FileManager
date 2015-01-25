@@ -37,7 +37,7 @@ if(isset($_SESSION['login'])){
 				}else{
 					$target = "";
 				}
-				echo "<div class='p$type pitem'><span class='text'><a href='main.php?file=$path/$item' target=$target>".$item."</a></span> ";
+				echo "<div class='pitem'><img src='./svg/{$type}/.svg'><span class='text'><a href='main.php?file=$path/$item' target=$target>".$item."</a></span> ";
 				if($type!="dir" and $type!="zip" and $type!="gif" and $type!="ico" and $type!="png"){
 					echo " &nbsp; | <span class='edit'><a href='edit.php?file=$path/$item&path=$path'>Edit</a></span> &nbsp;";
 				}
